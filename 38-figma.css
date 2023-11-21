@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Reem Kufi Fun', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.header{
+    background-color: rgb(25, 44, 48);
+    height: 700px;
+}
+.navbar{
+    color: white;
+    font-size: 16px 30px;
+    height: 65px;
+    background-color: rgb(25, 44, 48);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+}
+.logo{
+width: 50px;
+object-fit: contain;
+}
+.section-2{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+.section-2 p {
+border-bottom: 3px solid  rgb(25, 44, 48);
+padding-bottom: 5px;
+margin-top: 5px;
+transition: 1s all;
+cursor: pointer;
+}
+.section-2 p:hover{
+border-bottom:3px solid yellow ;
+
+}
+
+
+.home{
+    border-bottom: 3px solid yellow !important;
+}
+.heading1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    margin-top: 20px;
+align-items: center;
+color: white;
+    }
+    .heading1 h1{
+        width: 300px;
+        font-size: 40px;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+     
+.shop{
+    display: flex;
+    align-items: center;
+    padding-left: 400px;
+    padding-top: -500px;
+}
+.shop button{
+    height: fit-content;
+    border: none;
+    border-radius: 30px;
+    padding: 5px 10px;
+    background-color: yellow;
+    gap: 50px;
+}
+.shop img{
+    width: 600px;
+    margin-top: -300px;
+    size: 480px;
+    
+}
+.container {
+    display: flex;
+    margin: 100px 30px;
+    gap: 20px;
+}
+.card{
+    width: 25%;
+    padding: 10px;
+box-shadow: 0 0 5px wheat;
+border-radius: 10px;
+
+}
+.card img{
+    width: 100%;
+    border-top-left-radius:10px ;
+    border-top-right-radius: 10px;
+
+    
+}
+.card h2{
+    margin: 10px 0;
+}
